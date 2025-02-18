@@ -9,9 +9,12 @@
 <body>
     <div class="flex justify-center mt-10">
         <div>
-            <div id="light" class="w-[400px] h-[400px] border-4 border-red-500 rounded-full"></div>
-            <button id="btnOn" class="bg-yellow-500 px-10 py-2 text-4xl text-white rounded ml-8 m-3">ON</button>
-            <button id="btnOff" class="bg-black px-10 py-2 text-4xl text-white rounded m-3">OFF</button>
+            <div id="light" class="sm:w-[400px] sm:h-[400px] h-[300px] w-[300px] border-4 border-red-500 rounded-full"></div>
+            <div class="sm:block it">
+                <button id="btnOn" class="bg-yellow-500 px-10 py-2 text-4xl font-bold text-white rounded-lg sm:ml-6 m-3 ml-20">ON</button>
+                <div class="sm:hidden block"><br></div>
+                <button id="btnOff" class="bg-black px-10 py-2 text-4xl font-bold text-white rounded-lg m-3 sm:ml-6 ml-20">OFF</button>
+            </div>
         </div>
     </div>
     <script src="index.js"></script>
